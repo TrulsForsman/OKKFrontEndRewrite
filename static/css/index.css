@@ -1,0 +1,87 @@
+@supports (font-variation-settings: normal) {
+	:root { font-family: 'Inter var', sans-serif; }
+  }
+
+body {
+    background-color: #F5F5F5;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    background-color: #3937B0;
+}
+.logo {
+    width: 120px;
+    margin: 2px 0 0 190px;
+    position: absolute;
+}
+.header {
+    margin: 55px 0 0 325px;
+    color: white;
+    font-size: 50px;
+}
+.navcat {
+    width: 100%;
+    height: 50px;
+    background-color: #27257C;
+    position: absolute;
+    top: 110px;
+}
+ul {
+    margin-left: 125px;
+    list-style-type: none;
+}
+li {
+    float: left;
+    margin: 12px 40px;
+}
+a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+    text-decoration-line: none;
+}
+.container {
+    width: 80%;
+    background-color: white;
+    height: 700px;
+    margin: auto;
+    display: flex;
+}
+.leftchild {
+    width: 60%;
+    height: 400px;
+    margin: 210px 15px 15px 15px
+}
+.leftchild h2 {
+    font-size: 25px;
+    margin: 0 10px 0 50px;
+}
+.leftchild p {
+    margin: 15px 15px 15px 50px;
+}
+.rightchild {
+    background-color: #F5F5F5;
+    width: 40%; 
+    margin: 210px 20px 15px 15px
+}
+.rightchild .ccalendar {
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    background-color: #cfcfcf;
+}
+.searchbar {
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    background-color: #F5F5F5;
+}
+.searchbar .searchbox {
+    width: 235px;
+    height: 30px;
+    color: #ff0000;
+    margin: 15px auto 0 auto;
+}
